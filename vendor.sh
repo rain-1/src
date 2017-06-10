@@ -9,4 +9,4 @@ pull() {
   echo "$1"
 }
 
-pull {.config/nvim,tpope/vim-pathogen/master}/autoload/pathogen.vim
+pull {curtis/.config/nvim,tpope/vim-pathogen/master}/autoload/pathogen.vim
