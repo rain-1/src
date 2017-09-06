@@ -10,7 +10,7 @@ error() {
 }
 
 link() {
-  local source_path="$PWD/curtis/$1"
+  local source_path="$PWD/home/$1"
   local dest_path="$HOME/$1"
 
   [ -h "$dest_path" ] && return
